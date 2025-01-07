@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <script type="module" src="/dist/menu/menu.js"></script>
+    <title>Sneak</title>
+</head>
+<body>
+    <h1>Yiff Sneak</h1>
+    <form id="settings">
+        <h2>Settings</h2>
+        <div class="line">
+            <label for="mode">Image Mode: </label>
+            <select id="mode">
+                <option value="random">Random</option>
+                <option value="favorites">Favorites</option>
+            </select>
+        </div>
+        <div class="line" show-when="mode=favorites">
+            <label for="favoriteUserId">Favorite (e621) User Id: </label>
+            <input type="text" id="favoriteUserId">
+        </div>
+        <div class="line">
+            <label for="speed">Speed ms (time between ticks): </label>
+            <input type="number" id="speed" value="300">
+        </div>
+
+        <div class="line center bottom">
+            <button type="submit" style="background-color: rgb(47, 192, 47);">Play</button>
+            <button type="reset" style="background-color: rgb(240, 54, 54);">Reset</button>
+        </div>
+    </form>
+    <h1 style="visibility: hidden;">Yiff Sneak</h1>
+</body>
+</html>

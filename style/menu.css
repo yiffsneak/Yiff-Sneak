@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+button {
+    border: none;
+    font-size: 1.2rem;
+}
+button:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+form {
+    width: 20rem;
+    height: 30rem;
+
+    padding: 1rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    background-color: #5555;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.line.center {
+    justify-content: space-evenly;
+}
+
+.bottom {
+    margin-top: auto;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "yiffsneak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "buildWatch": "tsc --watch",
+    "build": "tsc",
+    "dev": "npm run buildWatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
