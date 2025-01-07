@@ -1,6 +1,12 @@
 # Yiff Sneak
 Why???
 
+## Controls
+- W: up
+- S: Down
+- A: Left
+- D: Right
+
 ## Building
 ```bash
 npm install
