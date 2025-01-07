@@ -1,6 +1,8 @@
 # Yiff Sneak
 Why???
 
+Also you can use your e621.net favorites by selecting `Favorites` in the main menue and pasting your user id.
+
 ## Controls
 - W: up
 - S: Down
